@@ -47,7 +47,7 @@ TotalPrice
 Each row represents a purchase transaction made by a customer.
 
 # RFM Metrics Calculation
-1. Recency
+## 1. Recency
 
 Measures how recently a customer made their last purchase.
 
@@ -55,7 +55,7 @@ Recency = Current Date - Last Purchase Date
 
 Lower recency value → more recent customer.
 
-2. Frequency
+## 2. Frequency
 
 Number of transactions made by a customer.
 
@@ -63,7 +63,7 @@ Frequency = Total number of purchases
 
 Higher frequency → more loyal customer.
 
-3. Monetary
+## 3. Monetary
 
 Total amount spent by a customer.
 
@@ -83,14 +83,6 @@ Assign RFM scores using quantiles
 
 Combine scores to create RFM segments
 
-Example segment groups:
-
-Segment	Description
-Champions	Recent, frequent, high spenders
-Loyal Customers	Frequent buyers
-Potential Loyalists	Recent customers with moderate spending
-At Risk	Haven't purchased recently
-Lost Customers	Long time since last purchase
 
 # Technologies Used
 
@@ -120,49 +112,6 @@ Customer Segmentation
 Visualization & Insights
 Sample Insights
 
-Identified top high-value customers
-
-Detected customers at risk of churn
-
-Found potential loyal customers for targeted campaigns
-
-Improved understanding of customer purchasing patterns
-
-How to Run the Project
-
-Clone the repository
-
-git clone https://github.com/yourusername/rfm-customer-segmentation.git
-
-Install required libraries
-
-pip install pandas numpy matplotlib seaborn
-
-Run the notebook
-
-jupyter notebook
-Project Structure
-rfm-segmentation/
-│
-├── data/
-│   └── dataset.csv
-│
-├── notebooks/
-│   └── rfm_analysis.ipynb
-│
-├── images/
-│   └── rfm_visualizations.png
-│
-└── README.md
-Future Improvements
-
-Apply Machine Learning clustering (K-Means)
-
-Build an interactive dashboard
-
-Automate segmentation pipeline
-
-Deploy as a web application
 
 Author
 
